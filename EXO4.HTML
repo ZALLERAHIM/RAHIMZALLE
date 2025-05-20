@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulaires</title>
+    <style>
+        body{
+            background-color: rgba(22, 148, 41, 0.441);
+            font-size: 50px;
+        }
+        .cercle{
+            border: 4px solid;
+            justify-content: center;
+            color: black;
+            background-color: black;
+        }
+        .cercle label{
+            color: red;
+        }
+        .cercle input{
+            color: blue;
+        }
+        .cercle input[type="submit"]{
+            color: brown;
+        }
+        a{
+            color: red;
+             }
+    </style>
+</head>
+<body>
+    <head>
+        <a href="EXO1-2.html">Retour à la page d'acceuil</a>
+    </head>
+    <br>
+    <br>
+    <div class="cercle ">
+    <form >
+            <label for="nom">Entrer votre nom</label>
+            <input type="text" name="nom" id="nom" placeholder="votre nom..."required>
+            <br></br>
+            <label for="email">Entrer votre email</label>
+            <input type="email" name="email" id="email" placeholder="email..."required>
+            <br></br>
+            <label for="age">Entrer votre age</label>
+            <input type="age" name="age" id="age" placeholder="votre age..."required>
+        <br></br>
+        <label for="Attractions">Attractions préférées</label>
+        <select >
+            <option value="">Attractions préférées</option>
+            <option value="Grande Mosquée">Grande Mosquée</option>
+            <option value="Marché Central">Marché Central</option>
+            <option value="Musée de Bobo-Dioulasso">Musée de Bobo-Dioulasso</option>
+        </select>
+        <br></br>
+        <input type="submit" value="Soumettre" id="">
+    </form>
+    </div>
+    <br>
+    <a href="EXO5.HTML">Infos sur les quartiers.html</a>
+    <br>
+    <a href="EXO6.HTML">Les Attractions.HTML</a>
+</body>
+</html>
